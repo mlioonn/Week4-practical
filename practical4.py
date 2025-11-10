@@ -1,3 +1,5 @@
+
+#Первое задание посчитать сумму числа по цифрам данную через параметр
 """
 def sum_digit(number):
     numSum = 0
@@ -8,6 +10,9 @@ def sum_digit(number):
 
 print(sum_digit(1234))
 """
+
+#второе задание function that takes two integers as parameters and returns a binary string where a 
+#character 1 is used if the digits at the same index are the same, a 0 otherwise.
 """
 def pairwise_digits(number_a, number_b):
     listA = str(number_a)
@@ -28,7 +33,8 @@ def pairwise_digits(number_a, number_b):
 
 print(pairwise_digits(1213, 121))
 """
-
+#Third question
+#Create a function that take a binary number (base 2), convert it into a decimal number (base 10) and return the base 10 value.
 """
 def to_base10(binary):
     number = 0
@@ -38,7 +44,8 @@ def to_base10(binary):
     return number
 print(to_base10(11111111))
 """
-
+#Fourth question 
+#Write a python script to print a right-angle triangle composed of alternating 0s and 1s.. 
 """
 def triangle():
     output = ''
@@ -61,6 +68,9 @@ def triangle():
         
 triangle()
 """
+
+#Fifth question 
+#Simply do debug a code
 """
 def sum_lists(list_2D):
     output =[]
